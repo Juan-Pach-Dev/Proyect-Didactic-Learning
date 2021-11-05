@@ -1,7 +1,7 @@
 ﻿
-namespace Proyect_Didactic_Learning
+namespace Proyect_Didactic_Learning.Materias
 {
-    partial class Sociales
+    partial class Matematicas
     {
         /// <summary>
         /// Required designer variable.
@@ -29,30 +29,30 @@ namespace Proyect_Didactic_Learning
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sociales));
-            this.Lblpregsociales = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Matematicas));
+            this.Lblpregmatematicas = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Lblpregsociales
+            // Lblpregmatematicas
             // 
-            this.Lblpregsociales.AutoSize = true;
-            this.Lblpregsociales.BackColor = System.Drawing.SystemColors.Window;
-            this.Lblpregsociales.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lblpregsociales.Location = new System.Drawing.Point(190, 40);
-            this.Lblpregsociales.Name = "Lblpregsociales";
-            this.Lblpregsociales.Size = new System.Drawing.Size(189, 21);
-            this.Lblpregsociales.TabIndex = 1;
-            this.Lblpregsociales.Text = "PREGUNTA DE SOCIALES";
+            this.Lblpregmatematicas.AutoSize = true;
+            this.Lblpregmatematicas.BackColor = System.Drawing.SystemColors.Window;
+            this.Lblpregmatematicas.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lblpregmatematicas.Location = new System.Drawing.Point(190, 40);
+            this.Lblpregmatematicas.Name = "Lblpregmatematicas";
+            this.Lblpregmatematicas.Size = new System.Drawing.Size(228, 21);
+            this.Lblpregmatematicas.TabIndex = 1;
+            this.Lblpregmatematicas.Text = "PREGUNTA DE MATEMATICAS";
             // 
-            // Sociales
+            // Matematicas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(634, 411);
-            this.Controls.Add(this.Lblpregsociales);
-            this.Name = "Sociales";
-            this.Text = "Sociales";
+            this.Controls.Add(this.Lblpregmatematicas);
+            this.Name = "Matematicas";
+            this.Text = "Matematicas";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -60,6 +60,6 @@ namespace Proyect_Didactic_Learning
 
         #endregion
 
-        private System.Windows.Forms.Label Lblpregsociales;
+        private System.Windows.Forms.Label Lblpregmatematicas;
     }
 }
