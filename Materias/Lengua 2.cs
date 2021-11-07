@@ -10,7 +10,11 @@ using System.Windows.Forms;
 
 namespace Proyect_Didactic_Learning.Materias
 {
-    public partial class Matematicas : Form
+    public partial class Lengua_2 : Form
     {
+        public Lengua_2()
+        {
+            InitializeComponent();
+        }
     }
 }

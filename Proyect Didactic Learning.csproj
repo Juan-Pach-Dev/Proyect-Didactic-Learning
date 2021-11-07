@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Materias\Ciencia 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materias\Ciencia 2.Designer.cs">
+      <DependentUpon>Ciencia 2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Materias\Ciencia.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Materias\Ciencia.Designer.cs">
       <DependentUpon>Ciencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Materias\Lengua 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materias\Lengua 2.Designer.cs">
+      <DependentUpon>Lengua 2.cs</DependentUpon>
     </Compile>
     <Compile Include="Materias\Lengua.cs">
       <SubType>Form</SubType>
@@ -58,17 +70,35 @@
     <Compile Include="Materias\Lengua.Designer.cs">
       <DependentUpon>Lengua.cs</DependentUpon>
     </Compile>
+    <Compile Include="Materias\Matematicas 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materias\Matematicas 2.Designer.cs">
+      <DependentUpon>Matematicas 2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Materias\Matematicas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Materias\Matematicas.Designer.cs">
       <DependentUpon>Matematicas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Materias\Quimica 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materias\Quimica 2.Designer.cs">
+      <DependentUpon>Quimica 2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Materias\Quimica.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Materias\Quimica.Designer.cs">
       <DependentUpon>Quimica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Materias\Sociales 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materias\Sociales 2.Designer.cs">
+      <DependentUpon>Sociales 2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,17 +108,32 @@
     <Compile Include="Materias\Sociales.Designer.cs">
       <DependentUpon>Sociales.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Materias\Ciencia 2.resx">
+      <DependentUpon>Ciencia 2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Materias\Ciencia.resx">
       <DependentUpon>Ciencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materias\Lengua 2.resx">
+      <DependentUpon>Lengua 2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Materias\Lengua.resx">
       <DependentUpon>Lengua.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Materias\Matematicas 2.resx">
+      <DependentUpon>Matematicas 2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Materias\Matematicas.resx">
       <DependentUpon>Matematicas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Materias\Quimica 2.resx">
+      <DependentUpon>Quimica 2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Materias\Quimica.resx">
       <DependentUpon>Quimica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materias\Sociales 2.resx">
+      <DependentUpon>Sociales 2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Materias\Sociales.resx">
       <DependentUpon>Sociales.cs</DependentUpon>
